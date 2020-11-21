@@ -327,14 +327,18 @@ h2.slogan{
 	font-size: 18px;
 	padding: 0 0 0 20px;
 }
-.progress li span.photoshop{width: 100%;}
-.progress li span.illustrator{width: 70%;}
-.progress li span.indesign{width: 40%;}
-.progress li span.flash{width: 80%;}
-.progress li span.html{width: 75%;}
-.progress li span.wordpress{width: 85%;}
-.progress li span.jquery{width: 70%;}
-.progress li span.seo{width: 40%;}
+.progress li span.python{width: 100%;}
+.progress li span.r{width: 70%;}
+.progress li span.flask{width: 40%;}
+.progress li span.sql{width: 80%;}
+.progress li span.mongo{width: 75%;}
+.progress li span.gmsh{width: 85%;}
+.progress li span.spark{width: 70%;}
+.progress li span.sklearn{width: 40%;}
+.progress li span.tf{width: 75%;}
+.progress li span.ts{width: 85%;}
+.progress li span.igraph{width: 70%;}
+.progress li span.ar{width: 40%;}
 .plagin_list{
 	width: 100%;
 	overflow: hidden;
@@ -360,7 +364,7 @@ h2.slogan{
 	height: 100%;
 	position: relative;
 }
-.plagin_list li.li_1 a{background: url(../images/icon_ps.png) no-repeat 50% 50% ;}
+.plagin_list li.li_1 a{background: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png) no-repeat 50% 50% ;}
 .plagin_list li.li_2 a{background: url(../images/icon_ai.png) no-repeat 50% 50% ;}
 .plagin_list li.li_3 a{background: url(../images/icon_ld.png) no-repeat 50% 50% ;}
 .plagin_list li.li_4 a{background: url(../images/icon_fl.png) no-repeat 50% 50% ;}
