@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
-<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -12,9 +10,6 @@
 	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/all.css" />
 	<link rel="stylesheet" href="css/screen.css" />
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 </head>
 <body>
 	<div id="wrapper" class="portfolio">
@@ -24,124 +19,244 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="myskills.html">My skills</a></li>
+							<li><a href="myskills.html">Skills</a></li>
 							<li><a class="active" href="portfolio.html">Portfolio</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<!--li><a href="contact.html">Contact</a></li-->
 						</ul>
 					</nav>
 			</header>
 		</div>
 		<div class="wrapper-holder grey">
 			<section id="main">
-				<h2>All works that I made</h2>
+				<h2>Relevant projects by application field</h2>
 				<ul id="filters" class="sub_nav">
-					<li class="active" data-filter="*">All works</li>
-					<li data-filter=".web">Web design</li>
-					<li data-filter=".illustration">Illustration</li>
-					<li data-filter=".dtp">DTP</li>
-					<li data-filter=".key">Key Visual</li>
-					<li data-filter=".identity">Identity</li>
+					<li class="active" data-filter="*">All</li>
+					<li data-filter=".ml">Machine Learning</li>
+					<li data-filter=".dl">Deep Learning</li>
+					<li data-filter=".na">Network Analysis</li>
+					<li data-filter=".ar">Association Rules</li>
+					<li data-filter=".ts">Time Series</li>
+					<li data-filter=".dbms">SQL/NoSQL</li>
+					<li data-filter=".app">App Dev</li>
+					<li data-filter=".gmsh">3d Modelling</li>
 				</ul>
 				<ul id="container" class="item-list">
-					<li class="item web key" >
+					<li class="item ml" >
 						<div class="image ">
-							<img src="images/pic_01.png"  alt="" />
+							<img src="images/pic_ML_pollution_stations.png"  alt="" />
 							<div class="hover">
-								<a class="fancybox" rel="gallery1" href="#portfolio_1">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/Pollution-Madrid#study-of-air-pollution-in-madrid">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>Air pollution in Madrid</h4>
+										<p>Analysis of air quality data, based on air pollutant and environmental variable information available from weather stations distributed across the city of Madrid.</p>
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
-					<li class="item illustration identity">
+					<li class="item gmsh">
 						<div class="image">
-							<img src="images/pic_1_1.png"  alt="" />
+							<img src="images/pic_3D_arch_mesoscale.png"  alt="" />
 							<div class="hover">
-								<a class="fancybox" rel="gallery1" href="#portfolio_2">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/gmsh-3D-arch-mesoscale#generation-of-a-mesoscale-3d-arch-fe-mesh">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>Mesoscale arch</h4>
+										<p>Set of macros to programmatically generate a standalone mesoscale masonry arch.</p>
 									</div>
 									</a>
 							</div>
 						</div>
 					</li>
-					<li class="item web dtp">
+					<li class="item ar">
 						<div class="image">
-							<img src="images/pic_02.png"  alt="" />
+							<img src="images/pic_association_hist.png"  alt="" />
 							<div class="hover">
-								<a class="fancybox" rel="gallery1" href="#portfolio_3">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/Association-Rules#association-rule-analysis">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>Association rule mining</h4>
+										<p>Mining and filtering of association rules from an online teaching platform, based on the apriori algorithm.</p>
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
-					<li class="item illustration key">
+					<li class="item gmsh">
 						<div class="image">
-							<img src="images/pic_03.png"  alt="" />
+							<img src="images/pic_3D_crack.png"  alt="" />
 							<div class="hover">
-								<a class="fancybox" rel="gallery1" href="#portfolio_4">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/gmsh-crack-generator#gmsh-plugin-for-crack-generation-in-3d-fe-meshes">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>Crack generator</h4>
+										<p>Python program to create cracks inside a solid three-dimensional mesh generated by gmsh.</p>
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
-					<li class="item web identity">
+					<li class="item dl">
 						<div class="image">
-							<img src="images/pic_04.png"  alt="" />
+							<img src="images/pic_dl.png"  alt="" />
 							<div class="hover">
-								<a class="fancybox" rel="gallery1" href="#portfolio_5">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/DeepLearning-MLP-Tutorial#fashionmnist-image-classification">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>Neural network</h4>
+										<p>Elaborations on a Multi-Layer-Perceptron Neural Network applied to the Fashion MNIST dataset.</p>
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
-					<li class="item dtp identity">
+					<li class="item ts">
 						<div class="image">
-							<img src="images/pic_05.png"  alt="" />
+							<img src="images/pic_time_series.png"  alt="" />
 							<div class="hover">
-								<a class="fancybox" rel="gallery1" href="#portfolio_6">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/Forecasting-Time-Series#forecasting-time-series---box-jenkins-methodology">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>Forecasting</h4>
+										<p>SARIMA forecasting of a time series following the Box-Jenkins methodology.</p>
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
-					<li class="item dtp key">
+					<li class="item na">
 						<div class="image">
-							<img src="images/pic_06.png"  alt="" />
+							<img src="images/pic_network_analysis.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/Football-Network-Analysis#network-analysis-on-european-football-leagues">
+									<div class="item-content">
+										<h4>Network analysis</h4>
+										<p>Graph modelling of eight European football leagues over the timespan 2008-2016 to extract insights from their properties to try to identify relevant metrics associated to successful teams.</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ml">
+						<div class="image">
+							<img src="images/pic_ml_spark.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/Spark-Movie-Ratings#movie-rating-database-analysis">
+									<div class="item-content">
+										<h4>Spark</h4>
+										<p>Analysis of a benchamrk movie rating dataset via pyspark sql.</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item gmsh">
+						<div class="image">
+							<img src="images/pic_3D_bridge.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/gmsh-3D-arch-bridge#generation-of-a-macroscale-multi-span-bridge-fe-mesh">
+									<div class="item-content">
+										<h4>Arch bridge</h4>
+										<p>Set of macros to generate a 3D Finite Element macroscale mesh of a 3-span arch bridge.</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item dbms">
+						<div class="image">
+							<img src="images/pic_dbms_sql.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/SQL-Tutorial-Solar-System#sample-queries-on-a-simplified-solar-system-database">
+									<div class="item-content">
+										<h4>SQL</h4>
+										<p>Sample queries on a simplified Solar System database.</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item app">
+						<div class="image">
+							<img src="images/pic_app_shiny.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/shinyApp-US-states#shiny-app---us-states-basic-spatial-analysis">
+									<div class="item-content">
+										<h4>Shiny app</h4>
+										<p>Basic usage of a leaflet based shiny app embedded in RMarkdown, channeling US demographic data.</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item dbms">
+						<div class="image">
+							<img src="images/pic_dbms_nosql.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/NoSQL-mongoDB-Tutorial#tutorial-on-basic-mongodb-operations">
+									<div class="item-content">
+										<h4>NoSQL - MongoDB</h4>
+										<p>Tutorial based on a database embedding a single collection of documents regarding stock values of Apple and Microsoft over a certain timespan.</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ml">
+						<div class="image">
+							<img src="images/pic_ml_computer_vision.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" target=_blank href="https://github.com/AlfaBetaBeta/Computer-Vision-Tutorial/blob/master/Comp_Vision_IC_tutorial.ipynb">
+									<div class="item-content">
+										<h4>Computer vision</h4>
+										<p>Summary of portfolio_7</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ml">
+						<div class="image">
+							<img src="images/pic_ml_nlp.png"  alt="" />
 							<div class="hover">
 								<a class="fancybox" rel="gallery1" href="#portfolio_7">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>Natural language processing</h4>
+										<p>Summary of portfolio_7</p>
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
-					<li class="item web identity">
+					<li class="item ml">
 						<div class="image">
-							<img src="images/pic_07.png"  alt="" />
+							<img src="images/pic_ml_package.png"  alt="" />
 							<div class="hover">
-								<a class="fancybox" rel="gallery1" href="#portfolio_8">
+								<a class="fancybox" rel="gallery1" href="#portfolio_7">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>Python package</h4>
+										<p>Summary of portfolio_7</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ml app">
+						<div class="image">
+							<img src="images/pic_ml_app_flask.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_7">
+									<div class="item-content">
+										<h4>Deployment</h4>
+										<p>Summary of portfolio_7</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ml">
+						<div class="image">
+							<img src="images/pic_ml_pumpit.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_7">
+									<div class="item-content">
+										<h4>Multi-class classification</h4>
+										<p>Summary of portfolio_7</p>
 									</div>
 								</a>
 							</div>
@@ -153,11 +268,8 @@
 		<footer id="footer">
 			<div class="footer-content">
 				<ul class="social">
-					<li class="email"><a href="#">Email</a></li>
-					<li class="facebook"><a href="#">Facebook</a></li>
-					<li class="google"><a href="#">Google+</a></li>
-					<li class="twitter"><a href="#">Twitter</a></li>
-					<li class="pinterest"><a href="#">Pinterest</a></li>
+					<li class="email"><a href="mailto:alejandro.barrero@alumni.ie.edu">Email</a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/alejandro-barrero-bilbao/">LinkedIn</a></li>
 				</ul>
 				<p class="copy">Copyright 2020 Alejandro Barrero. All rights reserved.</p>
 			</div>
@@ -166,54 +278,53 @@
 	<div style="display:none;">
 		<div id="portfolio_1" class="popup_portfolio">
 			<img src="images/img_pf02.jpg"  alt="" />
-			<h3>Title of the work</h3>
+			<h3>Title of portfolio_1</h3>
 			<time datetime="2014-06-20">Made: 06/20/14</time>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<p>Inside portfolio_1.</p>
 		</div>
 		<div id="portfolio_2" class="popup_portfolio">
 			<img src="images/img_pf02.jpg"  alt="" />
-			<h3>Title of the work</h3>
+			<h3>Title of portfolio_2</h3>
 			<time datetime="2014-06-20">Made: 06/20/14</time>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<p>Inside portfolio_2.</p>
 		</div>
 		<div id="portfolio_3" class="popup_portfolio">
 			<img src="images/img_pf02.jpg"  alt="" />
-			<h3>Title of the work 3</h3>
+			<h3>Title of portfolio_3</h3>
 			<time datetime="2014-06-20">Made: 06/20/14</time>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<p>Inside portfolio_3.</p>
 		</div>
 		<div id="portfolio_4" class="popup_portfolio">
 			<img src="images/img_pf02.jpg"  alt="" />
-			<h3>Title of the work 4</h3>
+			<h3>Title of portfolio_4</h3>
 			<time datetime="2014-06-20">Made: 06/20/14</time>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<p>Inside portfolio_4.</p>
 		</div>
 		<div id="portfolio_5" class="popup_portfolio">
 			<img src="images/img_pf02.jpg"  alt="" />
-			<h3>Title of the work 5</h3>
+			<h3>Title of portfolio_5</h3>
 			<time datetime="2014-06-20">Made: 06/20/14</time>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<p>Inside portfolio_5.</p>
 		</div>
 		<div id="portfolio_6" class="popup_portfolio">
 			<img src="images/img_pf02.jpg"  alt="" />
-			<h3>Title of the work 6</h3>
+			<h3>Title of portfolio_6</h3>
 			<time datetime="2014-06-20">Made: 06/20/14</time>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<p>Inside portfolio_6.</p>
 		</div>
 		<div id="portfolio_7" class="popup_portfolio">
 			<img src="images/img_pf02.jpg"  alt="" />
-			<h3>Title of the work 7</h3>
+			<h3>Title of portfolio_7</h3>
 			<time datetime="2014-06-20">Made: 06/20/14</time>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<p>Inside portfolio_7.</p>
 		</div>
 		<div id="portfolio_8" class="popup_portfolio">
 			<img src="images/img_pf02.jpg"  alt="" />
-			<h3>Title of the work 8</h3>
+			<h3>Title of portfolio_8</h3>
 			<time datetime="2014-06-20">Made: 06/20/14</time>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<p>Inside portfolio_8.</p>
 		</div>
 	</div>
-	<!--script src="http://code.jquery.com/jquery-1.11.1.min.js"></script-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="js/isotope.pkgd.min.js"></script>
 	<script src="js/cells-by-row.js"></script>
