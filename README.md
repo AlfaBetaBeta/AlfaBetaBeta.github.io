@@ -1,3 +1,3 @@
 ## GitHub Pages - Portfolio
 
-Under construction...
+Adapted from John Markowitz free HTML & CSS website template.
