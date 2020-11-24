@@ -212,7 +212,7 @@ h2.slogan{
 /*main
  */
 #main{
-	max-width: 1170px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 93px 0 76px;
 	position:relative;
@@ -231,13 +231,13 @@ h2.slogan{
 .box_timeline_holder{
 	background: url(../images/bg_timeline_l.png) no-repeat 0 70px;
 	position: relative;
-	padding: 0 0 0 100px;
+	padding: 0 0 0 50px;
 	overflow: hidden;
 }
 .box_timeline{
 	background: url(../images/bg_timeline_r.png) no-repeat 100% 70px;
 	position: relative;
-	padding: 0 100px 0 0;
+	padding: 0 50px 0 0;
 	overflow: hidden;
 }
 .box_timeline ul{
@@ -248,14 +248,14 @@ h2.slogan{
 .box_timeline ul li{
 	float:left;
 	width: 170px;
-	margin: 0 0 0 30px;
+	margin: 0 0 0 16px;
 	background: url(../images/bg_ul.gif) repeat-x 0 76px;
 }
 .box_timeline ul li:first-child{margin: 0;}
 .box_timeline ul li .date{
 	background: url(../images/bg_timeline_c.png) no-repeat 50% 0;
 	height: 86px;
-	width: 170px;
+	width: 150px;
 	margin: 0 auto 12px;
 	overflow: hidden;
 }
@@ -295,7 +295,7 @@ h2.slogan{
 	margin: 0 0 40px;
 }
 .skills_holder .column {
-	width: 470px;
+	width: 500px;
 	float: left;
 	margin: 0 10px 0 0;
 }
@@ -328,17 +328,17 @@ h2.slogan{
 	padding: 0 0 0 20px;
 }
 .progress li span.python{width: 100%;}
-.progress li span.r{width: 70%;}
-.progress li span.flask{width: 40%;}
-.progress li span.sql{width: 80%;}
-.progress li span.mongo{width: 75%;}
+.progress li span.r{width: 75%;}
+.progress li span.flask{width: 55%;}
+.progress li span.sql{width: 65%;}
+.progress li span.mongo{width: 55%;}
 .progress li span.gmsh{width: 85%;}
-.progress li span.spark{width: 70%;}
-.progress li span.sklearn{width: 40%;}
-.progress li span.tf{width: 75%;}
-.progress li span.ts{width: 85%;}
-.progress li span.igraph{width: 70%;}
-.progress li span.ar{width: 40%;}
+.progress li span.spark{width: 60%;}
+.progress li span.sklearn{width: 80%;}
+.progress li span.tf{width: 80%;}
+.progress li span.ts{width: 70%;}
+.progress li span.igraph{width: 75%;}
+.progress li span.ar{width: 80%;}
 .plagin_list{
 	width: 100%;
 	overflow: hidden;
@@ -346,13 +346,13 @@ h2.slogan{
 }
 .plagin_list li{
 	float:left;
-	margin: 0 0 0 25px;
+	margin: 0 0 0 30px;
 	border-radius: 50%;
 	behavior: url(css/PIE.htc);
 	text-indent: -9999px;
 	background: #28292b;
-	width: 121px;
-	height: 121px;
+	width: 70px;
+	height: 70px;
 	position:relative;
 	display: inline-block;
 	border: 1px solid #46484c;
@@ -365,13 +365,17 @@ h2.slogan{
 	position: relative;
 }
 .plagin_list li.li_1 a{background: url(../images/icon_python.png) no-repeat 50% 50% ;}
-.plagin_list li.li_2 a{background: url(../images/icon_ai.png) no-repeat 50% 50% ;}
-.plagin_list li.li_3 a{background: url(../images/icon_ld.png) no-repeat 50% 50% ;}
-.plagin_list li.li_4 a{background: url(../images/icon_fl.png) no-repeat 50% 50% ;}
-.plagin_list li.li_5 a{background: url(../images/icon_html.png) no-repeat 50% 50% ;}
-.plagin_list li.li_6 a{background: url(../images/icon_wp.png) no-repeat 50% 50% ;}
-.plagin_list li.li_7 a{background: url(../images/icon_jq.png) no-repeat 50% 50% ;}
-.plagin_list li.li_8 a{background: url(../images/icon_seo.png) no-repeat 50% 50% ;}
+.plagin_list li.li_2 a{background: url(../images/icon_r.png) no-repeat 50% 50% ;}
+.plagin_list li.li_3 a{background: url(../images/icon_flask.png) no-repeat 50% 50% ;}
+.plagin_list li.li_4 a{background: url(../images/icon_sql.png) no-repeat 50% 50% ;}
+.plagin_list li.li_5 a{background: url(../images/icon_mongodb.png) no-repeat 50% 50% ;}
+.plagin_list li.li_6 a{background: url(../images/icon_gmsh.png) no-repeat 50% 50% ;}
+.plagin_list li.li_7 a{background: url(../images/icon_spark.png) no-repeat 50% 50% ;}
+.plagin_list li.li_8 a{background: url(../images/icon_scikit-learn.png) no-repeat 50% 50% ;}
+.plagin_list li.li_9 a{background: url(../images/icon_tensorflow.png) no-repeat 50% 50% ;}
+.plagin_list li.li_10 a{background: url(../images/icon_forecast.png) no-repeat 50% 50% ;}
+.plagin_list li.li_11 a{background: url(../images/icon_r.png) no-repeat 50% 50% ;}
+.plagin_list li.li_12 a{background: url(../images/icon_r.png) no-repeat 50% 50% ;}
 .wrapper-holder.grey p{padding: 0 0 25px;}
 .plagin_list.none{display: none;}
 
@@ -413,7 +417,7 @@ transition: all 0.5s ease-in-out;
 	font-size: 14px;
 	line-height: 16px;
 	text-transform: uppercase;
-	margin: 0 22px;
+	margin: 0 17px;
 	padding: 0 0 10px;
 	border-bottom: 4px solid #3b3c3e;
 	font-family: 'novecentosanswide';
@@ -519,14 +523,13 @@ transition: all 0.5s ease-in-out;
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	display: block;
 	margin: 0 0 55px;
 	padding: 5px 0 18px 80px;
 }
 .box_contact span.email{background: url(../images/icon_email2.png) no-repeat;}
 .box_contact span.phone{background: url(../images/icon_phone.png) no-repeat;}
-.box_contact span.skype{background: url(../images/icon_skype.png) no-repeat;}
 /*footer
  */
 #footer {
@@ -536,7 +539,7 @@ transition: all 0.5s ease-in-out;
     background:#fff;
 }
 .footer-content {
-	max-width: 1170px;
+	max-width: 275px;
 	margin: 0 auto;
 	padding: 45px 0 20px;
 	color: #a5a5a5;
@@ -571,10 +574,7 @@ transition: all 0.5s ease-in-out;
 	position: relative;
 }
 .footer-content .social li.email a{background: url(../images/icon_email.png) no-repeat 50% 50% ;}
-.footer-content .social li.facebook a{background: url(../images/icon_fb.png) no-repeat 50% 50%;}
-.footer-content .social li.google a{background: url(../images/icon_gl.png) no-repeat 50% 50% ;}
-.footer-content .social li.twitter a{background: url(../images/icon_tw.png) no-repeat 50% 50% ;}
-.footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;}
+.footer-content .social li.linkedin a{background: url(../images/icon_linkedin.png) no-repeat 50% 50% ;}
 .footer-content p{
 	font:18px/20px Arial, Helvetica, sans-serif;
 	display: block;
@@ -655,55 +655,59 @@ transition: all 0.5s ease-in-out;
 	}
 	.footer-content .social li.email a{
 		background-image: url(../images/icon_email@x2.png);
-		background-size:51px 38px;
+		background-size:34px 25px;
 	}
-	.footer-content .social li.facebook a{
-		background-image: url(../images/icon_fb@x2.png);
-		background-size:20px 38px;
-	}
-	.footer-content .social li.google a{
-		background-image: url(../images/icon_gl@x2.png);
-		background-size:42px 38px;
-	}
-	.footer-content .social li.twitter a{
-		background-image: url(../images/icon_tw@x2.png);
-		background-size:44px 34px;
-	}
-	.footer-content .social li.pinterest a{
-		background-image: url(../images/icon_pn@x2.png);
-		background-size:38px 38px;
+	.footer-content .social li.linkedin a{
+		background-image: url(../images/icon_linkedin@x2.png);
+		background-size:25px 25px;
 	}
 	.plagin_list li.li_1 a{
-		background-image: url(../images/icon_ps@x2.png);
-		background-size:49px 42px;
+		background-image: url(../images/icon_python.png);
+		background-size:60px 60px;
 	}
 	.plagin_list li.li_2 a{
-		background-image: url(../images/icon_ai@x2.png);
-		background-size:45px 42px;
+		background-image: url(../images/icon_r.png);
+		background-size:50px 50px;
 	}
 	.plagin_list li.li_3 a{
-		background-image: url(../images/icon_ld@x2.png);
-		background-size:40px 43px;
+		background-image: url(../images/icon_flask.png);
+		background-size:65px 65px;
 	}
 	.plagin_list li.li_4 a{
-		background-image: url(../images/icon_fl@x2.png);
-		background-size:34px 42px;
+		background-image: url(../images/icon_sql.png);
+		background-size:50px 50px;
 	}
 	.plagin_list li.li_5 a{
-		background-image: url(../images/icon_html@x2.png);
-		background-size:39px 55px;
+		background-image: url(../images/icon_mongodb.png);
+		background-size:51px 51px;
 	}
 	.plagin_list li.li_6 a{
-		background-image: url(../images/icon_wp@x2.png);
-		background-size:55px 55px;
+		background-image: url(../images/icon_gmsh.png);
+		background-size:47px 47px;
 	}
 	.plagin_list li.li_7 a{
-		background-image: url(../images/icon_jq@x2.png);
-		background-size:87px 20px;
+		background-image: url(../images/icon_spark.png);
+		background-size:60px 30px;
 	}
 	.plagin_list li.li_8 a{
-		background-image: url(../images/icon_seo@x2.png);
-		background-size:60px 24px;
+		background-image: url(../images/icon_scikit-learn.png);
+		background-size:51px 51px;
+	}
+	.plagin_list li.li_9 a{
+		background-image: url(../images/icon_tensorflow.png);
+		background-size:55px 55px;
+	}
+	.plagin_list li.li_10 a{
+		background-image: url(../images/icon_forecast.png);
+		background-size:45px 52px;
+	}
+	.plagin_list li.li_11 a{
+		background-image: url(../images/icon_graph.png);
+		background-size:50px 50px;
+	}
+	.plagin_list li.li_12 a{
+		background-image: url(../images/icon_basket.png);
+		background-size:45px 45px;
 	}
 	.box_contact span.email{
 		background-image: url(../images/icon_email2@x2.png);
@@ -712,10 +716,6 @@ transition: all 0.5s ease-in-out;
 	.box_contact span.phone{
 		background-image: url(../images/icon_phone@x2.png);
 		background-size:54px 54px;
-	}
-	.box_contact span.skype{
-		background-image: url(../images/icon_skype@x2.png);
-		background-size:54px 51px;
 	}
 /* begin add	 */
 	.fancybox-close {
